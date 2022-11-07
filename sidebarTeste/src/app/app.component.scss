@@ -1,0 +1,98 @@
+mat-toolbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 10px;
+
+    button {
+        border: none;
+        background: #fff;
+        font-size: 12px;
+
+    }
+}
+
+mat-sidenav {
+    width: 21.5rem;
+    background: #172f39;
+
+    p {
+        color: #2cc0ff;
+        font-size: 2rem;
+        padding: 3rem 1rem 1rem 1rem;
+        text-align: left;
+        margin-left: 2rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+
+    }
+
+    .links {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 1rem;
+        mat-divider {
+            color: #748288a2;
+            width: 90%;
+            
+        }
+
+        a {
+            width: 300px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 12px 0;
+        
+        }
+
+
+        mat-icon {
+            color: #748288;
+            font-size: 1.5rem;
+            margin-right: 1.125rem;
+            margin-top: 0;
+        }
+        span {
+            color: #fff;
+            font-size: 1.125rem;
+
+        }
+    }
+    
+
+}
+
+.content {
+    height: calc(100vh - 98px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    h1 {
+        font-size: 2rem;
+        color: #73d5ff;
+        text-align: left;
+        width: 26.75rem;
+        font-weight: 500;
+    }
+    p {
+        color: #636363;
+        font-size: 1.125rem;
+        text-align: left;
+        width: 26.75rem;
+    }
+
+    
+}
+
+mat-sidenav-container {
+    height: 100vh;
+
+}
