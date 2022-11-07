@@ -82,6 +82,8 @@ mat-sidenav {
 
 }
 
+
+
     @media only screen and (max-width: 900px) {
 
         mat-sidenav {
@@ -142,6 +144,35 @@ mat-sidenav {
         }
     
     
+
+    }
+
+    @media (max-width: 600px) {
+        mat-sidenav {
+            width: 16.5rem;
+            background: #172f39;
+
+            p {
+                color: #2cc0ff;
+                font-size: 2rem;
+                padding: 3rem 0.25rem 2rem 0.25rem;
+                text-align: left;
+                margin-left: 1rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+                width: 235px;
+
+            }
+        }
+
+        a {
+            width: 13.63rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 12px 0;
+        
+        }
 
     }
 
