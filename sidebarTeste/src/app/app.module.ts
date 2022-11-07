@@ -14,14 +14,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { ComponentsModule } from './components/components.module';
 import { UserModule } from './pages/user/user.module';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent, SidebarComponent],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    CommonModule,
+    BrowserModule,
     MatToolbarModule,
     MatSidenavModule,
     MatButtonModule,
