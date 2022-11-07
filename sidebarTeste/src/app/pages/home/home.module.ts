@@ -11,21 +11,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { ComponentsModule } from 'src/app/components/components.module';
-import { SidebarComponent } from 'src/app/components/sidebar/sidebar.component';
+import { CommonModule } from '@angular/common';
+import { UserRoutingModule } from '../user/user-routing.module';
 
 @NgModule({
   declarations: [HomeComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    MatToolbarModule,
-    MatSidenavModule,
-    MatButtonModule,
-    MatIconModule,
-    MatDividerModule,
-    ComponentsModule,
-  ],
+  imports: [CommonModule, UserRoutingModule],
 })
 export class HomeModule {}
